@@ -10,4 +10,9 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'angular-to-ionic-poc';
+
+
+  onClick() {
+    alert('Button clicked!');
+  }
 }
